@@ -1,0 +1,31 @@
+{
+  "name": "notion-vm",
+  "version": "1.0.0",
+  "description": "Notion 公式引擎教学复刻：词法/语法分析 + 编译器 + 栈式虚拟机 + 可挂起取数 + 可视化单步调试器（单文件 HTML）",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluffyox/notion-vm.git"
+  },
+  "keywords": [
+    "notion",
+    "formula",
+    "compiler",
+    "virtual-machine",
+    "bytecode",
+    "stack-machine",
+    "interpreter",
+    "reverse-engineering",
+    "education"
+  ],
+  "scripts": {
+    "build": "bash build.sh",
+    "test": "node test/test.js",
+    "smoke": "node test/step_smoke.js",
+    "e2e": "node test/dom_smoke.mjs",
+    "check": "node --check src/engine.js && node --check src/ui.js && echo OK"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.0"
+  }
+}
