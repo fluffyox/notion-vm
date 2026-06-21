@@ -10,6 +10,12 @@
 
 实现忠于对 Notion 前端两个 rspack 模块的逆向：**448187**（VM + 编译器）与 **947152 / 942007**（函数目录 `formula2`）。是一台**纯 JavaScript 解释器**（非 WASM）。
 
+<p align="center">
+  <video src="https://github.com/fluffyox/notion-vm/raw/main/assets/demo.mp4" width="800" autoplay loop muted playsinline>
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 ---
 
 ## Quick Start
