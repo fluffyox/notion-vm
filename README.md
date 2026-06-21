@@ -10,12 +10,6 @@
 
 实现忠于对 Notion 前端两个 rspack 模块的逆向：**448187**（VM + 编译器）与 **947152 / 942007**（函数目录 `formula2`）。是一台**纯 JavaScript 解释器**（非 WASM）。
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/placeholder" alt="screenshot" width="800">
-</p>
-
-> **上方截图占位** — 首次推送后可截图替换，或直接删除此段。
-
 ---
 
 ## Quick Start
